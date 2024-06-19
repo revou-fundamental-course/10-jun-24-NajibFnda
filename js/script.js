@@ -1,6 +1,6 @@
 setInterval(function() {
     document.getElementById("jam").innerText = new Date().toLocaleTimeString().replaceAll(".",":")
-    }, 0);
+},0);
 const input = document.getElementById("suhu")
 const cek = document.getElementById("button")
 const fahrenheit= document.getElementById("fahrenheit")
@@ -16,7 +16,7 @@ cara.value = input.value.toString()+"x9/5+32"
 reverse.addEventListener("click", function(){
 if(fahrenheit.value){
 input.value = (Number(fahrenheit.value)-32)*5/9;
+cara.value = fahrenheit.value.toString()+"-32x5/9"
 }
 })
 console.log(suhu(30))
-
