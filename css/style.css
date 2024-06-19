@@ -1,0 +1,50 @@
+* {
+    font-family: Arial;
+    }
+.celcius-container {
+    text-align: center;
+}
+.body-container {
+    background-color: black;
+    color: white;
+        text-align: center;
+}
+header {
+    text-align: center;
+}
+#jam {
+    border-width: 37px;
+    border-color: white;
+    border-radius: 15px;
+    background-color: #5e5e5e;
+    width: 65px;
+    height: fit-content;
+}
+.result-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+textarea {
+    background-color: #5e5e5e;
+    resize: none;
+    border-radius: 7px;
+    font-size: 14px;
+    border-color: #545454;
+    color: white;
+}
+button {
+    background-color: #3d3d3d;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.subject-info {
+    font-size: 22px;
+    font-style: italic;
+    font-family: math;
+}
+.kotak {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: justify;
+}
