@@ -1,6 +1,11 @@
 * {
     font-family: Arial;
     }
+    .judul {
+        display:flex;
+        justify-content:space-between;
+        font-size: 20px;
+    }
 .celcius-container {
     text-align: center;
 }
@@ -17,8 +22,8 @@ header {
     border-color: white;
     border-radius: 15px;
     background-color: #5e5e5e;
-    width: 65px;
-    height: fit-content;
+    width: 85px;
+    height: 100%;
 }
 .result-container {
     display: flex;
@@ -28,7 +33,7 @@ textarea {
     background-color: #5e5e5e;
     resize: none;
     border-radius: 7px;
-    font-size: 14px;
+    font-size: 15px;
     border-color: #545454;
     color: white;
 }
@@ -37,6 +42,11 @@ button {
     border: none;
     border-radius: 4px;
     color: white;
+}
+button:hover {
+    background-color: gray;
+    transition: .3s ease-in-out;
+    transition-delay: 0,3s;
 }
 .subject-info {
     font-size: 22px;

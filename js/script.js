@@ -7,6 +7,7 @@ const fahrenheit= document.getElementById("fahrenheit")
 const cara = document.getElementById("rumus")
 const reverse= document.getElementById("reverse")
 
+
 cek.addEventListener("click", function(){
 if(input.value){
 fahrenheit.value = Number(input.value)*9/5+32
@@ -19,4 +20,3 @@ input.value = (Number(fahrenheit.value)-32)*5/9;
 cara.value = fahrenheit.value.toString()+"-32x5/9"
 }
 })
-console.log(suhu(30))
