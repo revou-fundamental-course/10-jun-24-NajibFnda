@@ -35,10 +35,12 @@ textarea {
     border-radius: 7px;
     font-size: 15px;
     color: white;
-    outline-width: 2px;
     max-width: 200px;
-    outline-color: rgb(226, 147, 0);
-    border: none;
+    border: 1px solid transparent;
+}
+textarea:focus{
+    outline-color: orange;
+    outline: 2px solid orange;
 }
 button {
     background-color: rgb(226, 147, 0);
