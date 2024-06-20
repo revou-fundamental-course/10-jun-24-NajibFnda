@@ -36,6 +36,7 @@ textarea {
     font-size: 15px;
     border-color: #545454;
     color: white;
+    max-width: 200px;
 }
 button {
     background-color: #3d3d3d;
