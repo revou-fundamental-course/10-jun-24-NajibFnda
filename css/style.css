@@ -4,7 +4,7 @@
     .judul {
         display:flex;
         justify-content:space-between;
-        font-size: 20px;
+        font-size: 15px;
     }
 .celcius-container {
     text-align: center;
@@ -34,18 +34,25 @@ textarea {
     resize: none;
     border-radius: 7px;
     font-size: 15px;
-    border-color: #545454;
     color: white;
+    outline-width: 2px;
     max-width: 200px;
+    outline-color: rgb(226, 147, 0);
+    border: none;
 }
 button {
-    background-color: #3d3d3d;
+    background-color: rgb(226, 147, 0);
     border: none;
     border-radius: 4px;
     color: white;
+    width: 140px;
+    height: 30px;
+    font-size: larger;
+    margin: 10px 20px;
+    
 }
 button:hover {
-    background-color: gray;
+    background-color: rgb(167, 108, 0);
     transition: .3s ease-in-out;
     transition-delay: 0,3s;
 }
