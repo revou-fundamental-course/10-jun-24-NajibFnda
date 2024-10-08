@@ -1,18 +1,21 @@
 * {
     font-family: Arial;
     }
-    .judul {
-        display:flex;
-        justify-content:space-between;
-        font-size: 15px;
-    }
+.judul {
+    display:flex;
+    justify-content:space-between;
+    font-size: 10px;
+
+   
+}
 .celcius-container {
+    display: table;
     text-align: center;
 }
 .body-container {
-    background-color: black;
-    color: white;
-        text-align: center;
+    color: black;
+    text-align:left;
+    background-color: white;
 }
 header {
     text-align: center;
@@ -21,42 +24,47 @@ header {
     border-width: 37px;
     border-color: white;
     border-radius: 15px;
-    background-color: #5e5e5e;
-    width: 85px;
+    background-color: rgb(186, 186, 186);
+    width: 60px;
     height: 100%;
+    color: black;
 }
 .result-container {
-    display: flex;
+    display:table;
     justify-content: space-evenly;
+    color: black;
 }
-textarea {
-    background-color: #5e5e5e;
+input {
+    width: 250px;
+    height: 50px;
+    background-color: white;
     resize: none;
-    border-radius: 7px;
+    border-radius: 15px;
     font-size: 15px;
-    color: white;
+    color: black;
     max-width: 200px;
-    border: 1px solid transparent;
+    border: 2px solid black;
 }
-textarea:focus{
-    outline-color: orange;
-    outline: 2px solid orange;
+input:focus{
+    outline-color: grey;
+    outline: 2px solid grey;
 }
 button {
-    background-color: rgb(226, 147, 0);
+    background-color: rgb(186, 186, 186);
     border: none;
-    border-radius: 4px;
-    color: white;
+    border-radius: 10px;
+    color: black;
     width: 140px;
     height: 30px;
     font-size: larger;
     margin: 10px 20px;
-    
+    display: table;
 }
 button:hover {
-    background-color: rgb(167, 108, 0);
+    background-color: grey;
     transition: .3s ease-in-out;
     transition-delay: 0,3s;
+    color: white;
 }
 .subject-info {
     font-size: 22px;
